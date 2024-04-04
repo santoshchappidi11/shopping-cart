@@ -1,0 +1,16 @@
+.rating {
+  height: auto;
+  width: auto;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.rating > i {
+  padding: 0.1rem;
+  /* border: 1px solid black; */
+}
+
+.star {
+  color: yellow;
+}

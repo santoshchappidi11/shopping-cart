@@ -1,0 +1,120 @@
+.filter {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 3%;
+  height: 80vh;
+  width: 20%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  margin: 0.5rem;
+  padding-left: 0.1rem;
+  color: white;
+  border-radius: 0.1rem;
+  background-color: #17706e;
+  /* background-color: rgb(48, 48, 48); */
+  /* border: 1px solid rgb(0, 0, 0); */
+}
+
+.filter-header {
+  height: auto;
+  width: 100%;
+  text-align: left;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  /* border: 1px solid black; */
+}
+
+.filter-body {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  padding: 0rem 1rem;
+  /* border: 1px solid black; */
+}
+
+.filter-body label {
+  padding: 0.8rem 0rem;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+label > input {
+  margin-right: 0.2rem;
+}
+
+.filter-footer {
+  height: auto;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  /* border: 1px solid black; */
+}
+
+.filter-footer button {
+  height: 2.5rem;
+  width: 12rem;
+  /* padding: 0.5rem 4.8rem; */
+  font-family: "poppins";
+  font-weight: 600;
+  font-size: 0.8rem;
+  border: none;
+  background: none;
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+  border-radius: 0.1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 1350px) {
+  .filter {
+    width: 30%;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .filter {
+    width: 38%;
+  }
+}
+
+@media (max-width: 768px) {
+  .filter {
+    width: 50%;
+    padding-left: 0.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .filter {
+    position: relative;
+    height: 52vh;
+    width: 67%;
+    margin: 0 auto;
+  }
+
+  .filter-header {
+    text-align: center;
+  }
+  .filter-body {
+    text-align: justify;
+    margin-left: 50%;
+  }
+
+  .filter-footer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .filter-body {
+    text-align: left;
+    margin-left: 20%;
+  }
+}
